@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep environment template
+!.env.example
+
+# Local raw data
+data/raw/
+
+# Test cache
+.pytest_cache/
+
+# Python package metadata
+*.egg-info/
